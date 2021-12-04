@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Bad Brooklyn Basketball (since 2012)</title>
-    <link rel="shortcut icon" type="image/gif" href="./favicon.gif">
+    <link rel="shortcut icon" type="image/png" href="favicon-1.png">
     <style>
       body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -14,6 +14,23 @@
     <marquee>Ball is life</marquee>
     <h1>Bad Brooklyn Basketball</h1>
     <h2>Since 2012</h2>
-    <img src="./basketball-spinning.gif">
+    <img src="basketball-spinning.gif">
+
+    <script>
+      const favicon = document.querySelector("link[rel='shortcut icon']");
+      let frame = 1;
+
+      function tick() {
+        favicon.setAttribute("href", `favicon-${frame}.png`);
+
+        if (frame < 9) {
+          frame++;
+        } else {
+          frame = 1;
+        }
+      }
+
+      setInterval(tick, 1000 / 2);
+    </script>
   </body>
 </html>
