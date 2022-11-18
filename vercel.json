@@ -1,5 +1,6 @@
 {
   "redirects": [
-   { "source": "/schedule", "destination": "https://docs.google.com/spreadsheets/d/18-m_OH70XkXDlzbhJGdsczB7WVbnXSeQBWqXUt95YUg/edit?usp=sharing", "permanent": false }
+   { "source": "/schedule", "destination": "https://docs.google.com/spreadsheets/d/18-m_OH70XkXDlzbhJGdsczB7WVbnXSeQBWqXUt95YUg/edit?usp=sharing", "permanent": false },
+   { "source": "/runs", "destination": "https://docs.google.com/spreadsheets/d/1BfaX-2Gc3hhtyJ32uFJqaJMp8H9GD201TwKPFTrQL00/edit?usp=sharing", "permanent": false }
   ]
 }
